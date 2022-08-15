@@ -36,7 +36,7 @@ window.addEventListener('DOMContentLoaded', function() {
         // Return a space as typing indicator if text is empty.
         var text = decodeURIComponent(location.hash.split('#')[1] || ' ');
         // var fontSize = Math.min(150 / text.length, 30);
-        var fontSize = 12;
+        var fontSize = 4;
 
         clearChars();
 
