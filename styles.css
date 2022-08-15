@@ -149,26 +149,26 @@ input::-webkit-input-placeholder {
 }
 
 .text li:nth-child(odd) {
-    background: white;
+    background: #DC1FFF;
 }
 
 .text li:nth-child(even) {
-    background: #f7f7f7;
+    background: #00FFA3;
 }
 
-.text li::after {
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    color: #aaa;
-    content: counter(num-chars);
-    display: block;
-    font-size: 1.5vw;
-    text-align: center;
-    user-select: none;
-}
+/*.text li::after {*/
+/*    -khtml-user-select: none;*/
+/*    -moz-user-select: none;*/
+/*    -ms-user-select: none;*/
+/*    -webkit-touch-callout: none;*/
+/*    -webkit-user-select: none;*/
+/*    color: #aaa;*/
+/*    content: counter(num-chars);*/
+/*    display: block;*/
+/*    font-size: 1.5vw;*/
+/*    text-align: center;*/
+/*    user-select: none;*/
+/*}*/
 
 .about {
     animation-delay: 2s;
